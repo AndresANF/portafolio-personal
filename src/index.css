@@ -1,0 +1,26 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  --bg-color: #f8f9fa;
+  --text-color: #212529;
+  --primary-color: #4f46e5; /* Índigo */
+  --primary-hover: #4338ca;
+  --nav-bg: #1f2937;
+  --card-bg: #ffffff;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
