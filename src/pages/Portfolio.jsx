@@ -33,9 +33,8 @@ const projectsData = [
   { 
     id: 2, 
     category: 'Web', 
-    title: 'Visualizador de Tiempo (Angular)', // <--- Actualizado el título
+    title: 'Visualizador de Tiempo (Angular)', 
     description: 'Aplicación precisa para la visualización y gestión del tiempo.',
-    // 👇 Actualizada la descripción técnica para mencionar Angular
     details: 'Desarrollado con el framework Angular. Aprovecha la potencia de TypeScript para un tipado robusto y la arquitectura de componentes de Angular para una interfaz modular y escalable.',
     images: ['/img/reloj-1.png', '/img/reloj-2.png'],
     codeUrl: 'https://github.com/AndresANF/visualizador-tiempo', 
